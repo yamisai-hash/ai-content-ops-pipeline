@@ -1,0 +1,19 @@
+{
+  "note": "Append-only log of manually-approved posts (sanitized; no real IDs).",
+  "posts": [
+    {
+      "id": "C-2030",
+      "format": "reel",
+      "approved_by": "human",
+      "posted_at": "2026-05-26T17:19:00",
+      "platform": "ig_reel"
+    },
+    {
+      "id": "C-2031",
+      "format": "image",
+      "approved_by": "human",
+      "posted_at": "2026-05-27T10:41:00",
+      "platform": "ig_feed"
+    }
+  ]
+}

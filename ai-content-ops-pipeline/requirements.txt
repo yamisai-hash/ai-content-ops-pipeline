@@ -1,0 +1,5 @@
+PyYAML>=6.0
+Pillow>=10.0
+requests>=2.31
+streamlit>=1.30
+# external (not pip): ffmpeg, ollama (local LLM)

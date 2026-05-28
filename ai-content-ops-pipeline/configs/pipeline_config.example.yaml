@@ -1,0 +1,16 @@
+# pipeline_config.example.yaml -- copy to pipeline_config.yaml and edit.
+# Local-first. Secrets (tokens) live in .env, never here.
+
+ideation:
+  provider: ollama          # local LLM
+  model: llama3
+posting:
+  safe_mode: true           # default: manual approval, no auto-post
+  platforms: [ig_feed, ig_reel]
+render:
+  resolution: "1080x1920"
+  fps: 30
+  tts_provider: edge_tts    # local; paid provider optional behind a flag
+paths:
+  ready_to_post: "07_READY_TO_POST"
+  posted: "08_POSTED"

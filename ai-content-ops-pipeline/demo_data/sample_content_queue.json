@@ -1,0 +1,30 @@
+{
+  "safe_mode": true,
+  "note": "Manual approval workflow. Nothing here is auto-posted.",
+  "queue": [
+    {
+      "id": "C-2041",
+      "format": "reel",
+      "product": "TEE",
+      "score": 5.5,
+      "status": "ready",
+      "caption": "made for the few."
+    },
+    {
+      "id": "C-2042",
+      "format": "image",
+      "product": "REAPER",
+      "score": 4.8,
+      "status": "pending",
+      "caption": "drop incoming."
+    },
+    {
+      "id": "C-2043",
+      "format": "story",
+      "product": "CARGO",
+      "score": 4.1,
+      "status": "pending",
+      "caption": "restock soon."
+    }
+  ]
+}
